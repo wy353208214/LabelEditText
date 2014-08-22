@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res/com.bayern.myedittext"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <com.bayern.demo.LabelEditText
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:hint="请输入用户名"
+        android:textColorHint="@android:color/darker_gray"
+        app:label_text="登录：" />
+
+</LinearLayout>
